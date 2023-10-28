@@ -1,0 +1,10 @@
+[package]
+name = "library"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+taffy = { version = "0.3.16", features = ["grid"] }
+
+[workspace]
+members = ["examples/grid"]
